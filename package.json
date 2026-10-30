@@ -1,0 +1,13 @@
+{
+  "name": "studyvault-digital-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student Digital Library Platform with Neumorphism UI, Flask REST API, PDF Server-Side Validation, and 24h Contribution Access Model",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "python backend/run.py",
+    "build": "npm --prefix frontend run build",
+    "test": "python -m pytest backend/tests/ -v"
+  }
+}
